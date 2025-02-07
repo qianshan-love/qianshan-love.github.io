@@ -1,0 +1,13 @@
+/* 调整看板娘位置 */
+#live2d-widget {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 9999;
+}
+
+/* 调整看板娘大小 */
+#live2d-widget canvas {
+  width: 150px !important;
+  height: 300px !important;
+}

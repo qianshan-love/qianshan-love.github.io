@@ -109,7 +109,7 @@ function startSakura() {
   cxt = canvas.getContext('2d');
   //樱花数量
   var sakuraList = new SakuraList();
-  for (var i = 0; i < 13; i++) {
+  for (var i = 0; i < 3; i++) {
     var sakura, randomX, randomY, randomS, randomR, randomFnx, randomFny;
     randomX = getRandom('x');
     randomY = getRandom('y');
