@@ -11,3 +11,8 @@
   width: 150px !important;
   height: 300px !important;
 }
+/* 加粗加黑导航栏文字 */
+.navbar-nav .nav-link span {
+  font-weight: bold; /* 加粗 */
+  color: #00FFFF; /* 加黑 */
+}

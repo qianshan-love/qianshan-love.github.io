@@ -58,13 +58,14 @@
 
 
   
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/EmoryHuang/BlogBeautify@1.1/shubiao.css">
 <link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/lxgw-wenkai-screen-webfont/1.7.0/style.min.css">
 <link rel="stylesheet" href="/css/cloudedGlass.css">
 <link rel="stylesheet" href="/css/scrollAnimation.css">
 <link rel="stylesheet" href="/css/selection.css">
 <link rel="stylesheet" href="/css/macBorder.css">
 <link rel="stylesheet" href="/css/backgroundize.css">
+<link rel="stylesheet" href="/css/meteor-shower.css">
+<link rel="stylesheet" href="/css/custom.css">
 
 
 
@@ -277,7 +278,13 @@
   <div class="row mx-auto index-card">
     
     
-    <article class="col-12 col-md-12 mx-auto index-info">
+      <div class="col-12 col-md-4 m-auto index-img">
+        <a href="/2025/02/06/SpringMVC/" target="_self">
+          <img src="/img/img_1.png" srcset="/img/loading.gif" lazyload alt="SpringMVC">
+        </a>
+      </div>
+    
+    <article class="col-12 col-md-8 mx-auto index-info">
       <h2 class="index-header">
         
         <a href="/2025/02/06/SpringMVC/" target="_self">
@@ -286,7 +293,7 @@
       </h2>
 
       
-      <a class="index-excerpt index-excerpt__noimg" href="/2025/02/06/SpringMVC/" target="_self">
+      <a class="index-excerpt " href="/2025/02/06/SpringMVC/" target="_self">
         <div>
           一、SpringMVC简介1、什么是MVCMVC是一种软件架构的思想，将软件按照模型、视图、控制器来划分 M：Model，模型层，指工程中的JavaBean，作用是处理数据 JavaBean分为两类：  一类称为实体类Bean：专门存储业务数据的，如 Student、User 等 一类称为业务处理 Bean：指 Service 或 Dao 对象，专门用于处理业务逻辑和数据访问。  V：View，视
         </div>
@@ -397,7 +404,7 @@
     <div class="footer-inner">
   
     <div class="footer-content">
-       <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a> <i class="iconfont icon-love"></i> <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a> 
+       <div> <span id="timeDate">载入天数...</span> <span id="times">载入时分秒...</span> <script src="/js/duration.js"></script> </div> <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a> <i class="iconfont icon-love"></i> <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a> 
     </div>
   
   
@@ -466,6 +473,7 @@
 <script src="/js/backgroundize.js"></script>
 <script src="/js/waifu-tips.js"></script>
 <script src="/js/live2d.js"></script>
+<script src="/js/meteor.js"></script>
 
 
 
